@@ -6,7 +6,7 @@
 }
 
 .container{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     height: 100%;
     border: 1px black dashed;
@@ -70,7 +70,7 @@
 .section{
     height: 300px;
     background-color: beige;
-    padding: 20px;
+    padding: 20px 0;
     
 }
 
@@ -82,6 +82,8 @@
     background-color: #1E90FF;
     height: 100%;
     width: 60%;
+    border-right: 1px dashed black;
+    border-left: 1px dashed black;
 }
 
 .pink{
@@ -104,11 +106,64 @@
 .main-bottom{
     height: 500px;
     background-color:#D3D3D3;
-    padding: 20px;
+    padding: 20px 0;
 
 }
 
 .main-bottom > .container{
     background-color: #228B22;
+    
+}
+/* /BOTTOM MAIN */
+
+/* FOOTER TOP */
+.footer-top{
+    height: 300px;
+    background-color: #23272A;
+    padding: 10px 0 20px;
+    
+}
+
+.footer-top > .container{
+    display: flex;
+}
+
+.list{
+    height: 100%;
+    background-color: #1E90FF;
+    border: 1px solid black;
+    flex-grow: 1;
+    border: 1px dashed white;
+}
+
+.list:first-child{
+    flex-grow: 2;
+    background-color:pink ;
+    border: 1px dashed black;
+}
+/* /FOOTER TOP */
+
+/* FOOTER BOTTOM */
+.footer-bottom{
+    padding: 20px 0;
+    /* debug */
+    height: 80px;
+    background-color: #23272A;
+    border-top: 1px solid white;
+}
+
+.footer-bottom > .container{
+    background-color: lightblue;
+    border: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.button{
+    background-color: #FFB6C1;
+    border: 1px dashed black;
+    padding: 10px;
     
 }
